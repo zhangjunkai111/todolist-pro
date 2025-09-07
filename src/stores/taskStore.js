@@ -9,7 +9,7 @@ export const useTaskStore = defineStore('taskStore',{
     actions: {
         addTask(title){
             this.tasks.push({
-                id: Data.now(),
+                id: Date.now(),
                 title,
                 completed: false
             })
