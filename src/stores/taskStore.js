@@ -17,7 +17,7 @@ export const useTaskStore = defineStore('taskStore',{
         },
         removeTask(id){
             this.tasks = this.tasks.filter((task) => task.id!==id)
-            this.savaTasks()
+            this.saveTasks()
         },
         toggleTask(id){
             const task = this.tasks.find(t => t.id === id)
