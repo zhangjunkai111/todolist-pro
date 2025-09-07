@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../wamp/www"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "vscode"
+	}
+}

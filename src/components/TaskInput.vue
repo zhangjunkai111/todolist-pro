@@ -34,4 +34,5 @@ function add(){
         flex:1;
         padding:8px;
     }
+    
 </style>
